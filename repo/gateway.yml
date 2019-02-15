@@ -10,15 +10,19 @@ zuul:
     api-index:
       path: /api/index/**
       serviceId: index
+      strip-prefix: false
     api-comment:
       path: /api/comment/**
       serviceId: comment
+      strip-prefix: false
     api-sys:
       path: /api/sys/**
       serviceId: sys
+      strip-prefix: false
     api-article:
       path: /api/article/**
       serviceId: article
+      strip-prefix: false
   host:
     connect-timeout-millis: 60000
     socket-timeout-millis: 60000
