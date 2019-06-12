@@ -15,7 +15,7 @@ zuul:
       serviceId: comment 
     api-sys:
       path: /api/sys/**
-      serviceId: sys
+      serviceId: antd-sys
       strip-prefix: false
     api-article:
       path: /api/article/**
