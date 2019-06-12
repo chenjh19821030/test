@@ -16,7 +16,7 @@ zuul:
     api-sys:
       path: /api/sys/**
       serviceId: antd-sys
-      strip-prefix: false
+      strip-prefix: true
     api-article:
       path: /api/article/**
       serviceId: article 
