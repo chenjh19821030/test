@@ -2,6 +2,6 @@ server:
   port: 8084
 spring:
   application:
-    name: antd-sys-web
+    name: antd-sys
   profiles:
     active: dev
